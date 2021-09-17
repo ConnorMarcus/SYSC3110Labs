@@ -5,7 +5,10 @@ public class AddressBook {
 
 
     public static void main(String[] args) {
-        System.out.println("Main: AddressBook.java");
+        BuddyInfo buddy = new BuddyInfo("John Smith", "613-424-1921", "Main St.");
+        AddressBook addressBook = new AddressBook();
+        addressBook.addBuddy(buddy);
+        addressBook.removeBuddy(buddy);
     }
 
     public void addBuddy(BuddyInfo buddy) {
