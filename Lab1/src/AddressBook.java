@@ -1,5 +1,6 @@
 import java.util.HashSet;
 
+//Comment from Github
 public class AddressBook {
     private HashSet<BuddyInfo> buddyCollection = new HashSet<BuddyInfo>();
 
