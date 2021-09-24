@@ -21,4 +21,8 @@ public class AddressBook {
     public void removeBuddy(BuddyInfo buddy) {
         this.buddyCollection.remove(buddy);
     }
+
+    public boolean containsBuddy(BuddyInfo buddy) {
+        return this.buddyCollection.contains(buddy);
+    }
 }
