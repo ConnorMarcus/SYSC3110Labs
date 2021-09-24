@@ -12,7 +12,9 @@ public class AddressBook {
     }
 
     public void addBuddy(BuddyInfo buddy) {
-        this.buddyCollection.add(buddy);
+        if(buddy != null) {
+            this.buddyCollection.add(buddy);
+        }
     }
 
     public void removeBuddy(BuddyInfo buddy) {
